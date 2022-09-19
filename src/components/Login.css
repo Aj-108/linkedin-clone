@@ -1,0 +1,89 @@
+.Login{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__top img{
+    object-fit: contain;
+    height: 85px;
+}
+
+.login__top{
+    margin-left: 36px;
+    margin-top: 10px;   
+}
+
+.login__card{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    min-width: 350px ;   
+    align-self: center;
+    margin-top: 40px;
+}
+
+.login__card h2 {
+    font-size: 36px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.login__card p {
+    margin-left : 20px ;
+    font-size: 15px; 
+}
+
+.login__form{
+    padding: 10px;
+    margin-left : 10px ;
+}
+
+.login__form form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.login__form form input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    max-width: 285px;
+}
+
+.login__button{
+    margin-top: 15px;
+    border: none;
+    padding: 13px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(9,102,194);
+    font-weight: 800;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor : pointer;
+}
+
+.login__button:hover{
+    cursor: pointer;
+    background-color: rgb(20, 83, 146);
+}
+
+.loginCard__bottom {
+    font-size: 14px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.register{
+    cursor: pointer;
+    color: rgb(10,107,210);
+    font-weight: 600;
+}
